@@ -6698,6 +6698,8 @@ using the specified comparison object and allocator.
 Constant.
 \end{itemdescr}
 
+\newpage
+
 \indexlibraryctor{map}%
 \begin{itemdecl}
 template<class InputIterator>
@@ -9186,6 +9188,7 @@ namespace std {
            class Hash = hash<@\placeholder{iter-value-type}@<InputIterator>>,
            class Pred = equal_to<@\placeholder{iter-value-type}@<InputIterator>>,
            class Allocator = allocator<@\placeholder{iter-value-type}@<InputIterator>>>
+@\newpage@
     unordered_set(InputIterator, InputIterator, typename @\seebelow@::size_type = @\seebelow@,
                   Hash = Hash(), Pred = Pred(), Allocator = Allocator())
       -> unordered_set<@\placeholder{iter-value-type}@<InputIterator>,
